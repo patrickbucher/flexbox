@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Crimson Pro';
+    hyphens: auto;
+    background-color: #f0f3f4;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    font-family: 'Lato';
+    flex-grow: 0;
+    background-color: #5d6d7e;
+    color: #f0f3f4;
+    padding: 0.5em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header div.logo {
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+header nav {
+    flex-grow: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+nav div {
+    padding-left: 1em;
+}
+
+main {
+    margin: 1em auto;
+    max-width: 42em;
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+}
+
+p {
+    text-align: justify;
+}
